@@ -18,7 +18,7 @@ from env_setting.env_CRUD import *
 def exec(request):
     ctx = {}
     showlog = []
-    with open('/root/mygithub/caicloudQA/robotgogo/robotexec.log') as f:
+    with open('/root/mygithub/caiman/robotgogo/robotexec.log') as f:
         logtmp = f.readlines()
     logttt = logtmp[-10:]
     ctx['li'] = logttt

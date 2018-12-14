@@ -1,18 +1,15 @@
 ==============================================================================
 devopsAPI                                                                     
 ==============================================================================
-devops_持续交付_gitlab_golang流水线                                   | FAIL |
-ConnectionError: HTTPConnectionPool(host='ww', port=6002): Max retries exceeded with url: /apis/admin.devops.caicloud.io/v1/workspaces (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcb306d8390>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+devops_持续交付_gitlab_golang流水线                                   | PASS |
 ------------------------------------------------------------------------------
-devops_持续交付_github_maven流水线_加速                               | FAIL |
-ConnectionError: HTTPConnectionPool(host='ww', port=6002): Max retries exceeded with url: /apis/admin.devops.caicloud.io/v1/workspaces (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcb2f9ed160>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+devops_持续交付_github_maven流水线_加速                               | PASS |
 ------------------------------------------------------------------------------
-devops_持续交付_svn_golang流水线                                      | FAIL |
-ConnectionError: HTTPConnectionPool(host='ww', port=6002): Max retries exceeded with url: /apis/admin.devops.caicloud.io/v1/workspaces (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcb2f9edf28>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+devops_持续交付_svn_golang流水线                                      | PASS |
 ------------------------------------------------------------------------------
-devopsAPI                                                             | FAIL |
-3 critical tests, 0 passed, 3 failed
-3 tests total, 0 passed, 3 failed
+devopsAPI                                                             | PASS |
+3 critical tests, 3 passed, 0 failed
+3 tests total, 3 passed, 0 failed
 ==============================================================================
 Output:  /opt/rfresult/devops/result/output.xml
 Log:     /opt/rfresult/devops/result/log.html

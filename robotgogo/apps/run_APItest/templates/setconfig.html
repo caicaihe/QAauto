@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+ {% load static %}
 <head>
 <meta charset="utf-8">
 <title>run_test</title>
@@ -10,9 +11,19 @@
             window.location.href = url;
         }
     </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
 </head>
 <body>
-    <h1>选择被测试环境</h1>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#563d7c;">
+        <a class="navbar-brand" href="#">
+            <img src="{% static 'logo.png' %}" height="32" class="d-inline-block align-top" alt="">
+            Compass 自动化测试平台
+        </a>
+        <div class="collapse navbar-collapse">
+        </div>
+    </nav>
+ <br>
     <form method="post">
         被测试环境名称：<input type="text" name="nn">
         <br>
