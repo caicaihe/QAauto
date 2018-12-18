@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+ {% load static %}
+<head>
+<meta charset="utf-8">
+<title>run_test</title>
+        <script type="text/javascript">
+        var clickBtn = function() {
+             var ip = "192.168.56.102"
+            var url = "http://"+ip+":8081/devops/result"
+            window.location.href = url;
+        }
+        var clickBtnB = function() {
+            var url = "http://192.168.133.29:6080/vnc.html"
+            window.location.href = url;
+        }
+    </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#563d7c;">
+        <a class="navbar-brand" href="#">
+            <img src="{% static 'logo.png' %}" height="32" class="d-inline-block align-top" alt="">
+            Compass 自动化测试平台
+        </a>
+        <div class="collapse navbar-collapse">
+        </div>
+    </nav>
+ <br>
+    <form method="post">
+        被测试环境名称：<input type="text" name="nn">
+        <br>
+        测试模块：
+        <br>
+        <input type="radio" name="mm" value="login">login
+        <br>
+
+        <br>
+        <br>
+
+    <input type="submit" value="执行">
+</form>
+    <p>{{ rlt }}</p>
+    <br>
+
+    <form   action="/run_UItest/exec/" method="get">
+        <input type="submit" value="查看执行日志">
+    </form>
+
+  <button onclick="clickBtnB()">
+        实况直播
+    </button>
+ <br>
+ <br>
+    <button onclick="clickBtn()">
+        测试结果
+    </button>
+ <br>
+
+    <br>
+
+ <button  onclick="location.href='/'">
+        返回首页
+    </button>
+   <br>
+<p>环境信息列表</p>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>IP</th>
+            <th>Registry</th>
+        </tr>
+        {% for item in li%}
+        <tr>
+            <td>{{ item.Name}} </td>
+            <td>{{ item.IP}} </td>
+            <td>{{ item.Registry}} </td>
+        </tr>
+        {% endfor %}
+    </table>
+
+
+</body>
+</html>

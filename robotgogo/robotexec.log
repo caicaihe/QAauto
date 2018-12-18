@@ -1,15 +1,12 @@
 ==============================================================================
-devopsAPI                                                                     
+UItest                                                                        
 ==============================================================================
-devops_持续交付_gitlab_golang流水线                                   | PASS |
+login                                                                 | FAIL |
+Element with locator 'xpath=//div[text()='devops']' not found.
 ------------------------------------------------------------------------------
-devops_持续交付_github_maven流水线_加速                               | PASS |
-------------------------------------------------------------------------------
-devops_持续交付_svn_golang流水线                                      | PASS |
-------------------------------------------------------------------------------
-devopsAPI                                                             | PASS |
-3 critical tests, 3 passed, 0 failed
-3 tests total, 3 passed, 0 failed
+UItest                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
 ==============================================================================
 Output:  /opt/rfresult/devops/result/output.xml
 Log:     /opt/rfresult/devops/result/log.html

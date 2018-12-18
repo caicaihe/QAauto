@@ -9,4 +9,5 @@ urlpatterns = [
 
     url(r'^env_setting/', include("env_setting.urls")),
     url(r'^run_APItest/', include("run_APItest.urls")),
+    url(r'^run_UItest/', include("run_UItest.urls")),
 ]

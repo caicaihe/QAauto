@@ -27,7 +27,7 @@ def exec(request):
 
 
 
-def API_test(request):
+def UI_test(request):
     ctx = {}
     result = testdb_all(request)
 

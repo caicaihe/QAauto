@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'env_setting',
     'run_APItest',
+    'run_UItest',
 
 ]
 
