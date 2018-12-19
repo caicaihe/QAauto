@@ -1,3 +1,6 @@
+from django.shortcuts import render
+
+
 def get_log(request):
     ctx = {}
     ctx['rln'] = 'kkk'
