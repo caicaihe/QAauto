@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+ {% load static %}
+<head>
+<meta charset="utf-8">
+<title>run_test</title>
+        <script type="text/javascript">
+        var clickBtn = function() {
+             var ip = "192.168.56.102"
+            var url = "http://"+ip+":8081/devops/result"
+            window.location.href = url;
+        }
+    </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#563d7c;">
+        <a class="navbar-brand" href="#">
+            <img src="{% static 'logo.png' %}" height="32" class="d-inline-block align-top" alt="">
+            Compass 自动化测试平台
+        </a>
+        <div class="collapse navbar-collapse">
+        </div>
+    </nav>
+ <br>
+    <form method="post" >
+         自动触发流程名：<input type="text" name="nm">
+        <br>
+        被测试环境名称：<input type="text" name="nn">
+        <br>
+
+        测试模块：
+        <br>
+        <input type="radio" name="mm" value="devops">devops
+        <br>
+        <input type="radio" name="mm" value="registry">registry
+        <br>
+        测试结果推送邮箱1：<input type="text" name="nn1">
+        <br>
+        测试结果推送邮箱2：<input type="text" name="nn2">
+        <br>
+        测试结果推送邮箱3：<input type="text" name="nn3">
+        <br>
+        <br>
+        <input type="submit" value="添加">
+
+</form>
+        <br>
+        <p>自动化测试列表</p>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>envName</th>
+            <th>TetstModel</th>
+            <th>email1</th>
+            <th>email2</th>
+            <th>email3</th>
+            <th>TestTime</th>
+        </tr>
+        {% for item2 in li2%}
+        <tr>
+            <td>{{ item2.Name}} </td>
+            <td>{{ item2.envName}} </td>
+            <td>{{ item2.TestModel}} </td>
+            <td>{{ item2.email1}} </td>
+            <td>{{ item2.email2}} </td>
+            <td>{{ item2.email3}} </td>
+            <td>{{ item2.TestTime}} </td>
+        </tr>
+   {% endfor %}
+    </table>
+
+ <button  onclick="location.href='/'">
+        返回首页
+    </button>
+   <br>
+
+
+
+</body>
+</html>
