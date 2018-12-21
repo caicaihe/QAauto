@@ -29,7 +29,7 @@ def exec(request):
 
 def UI_test(request):
     ctx = {}
-    result = testdb_all(request)
+    result = testdb_all()
 
     ctx['li'] = result
     if request.POST:
@@ -37,7 +37,7 @@ def UI_test(request):
         testmodel = request.POST['mm']
         ctx['ccc'] = 'devops'
         Nametmp = request.POST['nn']
-        tmpdata = testdb_get(request, Nametmp)
+        tmpdata = testdb_get(Nametmp)
         IPtmp = tmpdata[0].IP
         registrytmp = tmpdata[0].Registry
         change_config.change_config_IP(IPtmp)
