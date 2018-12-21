@@ -1,18 +1,14 @@
 # -*- coding: utf-8 -*-
 
-from django.http import HttpResponse
-from django.shortcuts import render_to_response
 from django.shortcuts import render
 from .backend import robot_exec
 from . import change_config
-import os
+
 import time
-import sys
 
 
 
-sys.path.append("../")
-from env_setting.env_CRUD import *
+from apps.env_setting.env_CRUD import *
 
 
 def exec(request):

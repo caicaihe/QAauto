@@ -4,10 +4,9 @@ import json
 import sys
 from django.http import HttpResponse
 from django.shortcuts import render
-from .backend import send_email, robotExec
+from haha.backend import send_email, robotExec
 
-sys.path.append("../")
-from env_setting.env_CRUD import *
+from apps.env_setting.env_CRUD import *
 
 
 def hello(request):

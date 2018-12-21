@@ -1,20 +1,9 @@
 # -*- coding: utf-8 -*-
 
-import os
-import sys
 
-sys.path.append("..")
-from django.http import HttpResponse
 from django.shortcuts import render
 
-# from models import envinfo
-from .models import envinfo, rfrecord
-from .env_CRUD import *
-
-import sys
-
-sys.path.append("..")
-from .env_CRUD import *
+from apps.env_setting.env_CRUD import *
 
 
 # 表单

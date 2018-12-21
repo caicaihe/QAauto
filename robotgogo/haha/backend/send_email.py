@@ -3,7 +3,7 @@ import sys
 from email.header import Header
 from email.mime.text import MIMEText
 sys.path.append("../")
-from env_setting.env_CRUD import *
+from apps.env_setting.env_CRUD import *
 
 # 第三方 SMTP 服务
 mail_host = "smtp.163.com"      # SMTP服务器

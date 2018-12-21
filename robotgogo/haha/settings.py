@@ -42,9 +42,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'env_setting',
-    'run_APItest',
-    'run_UItest',
+    'apps.env_setting',
+    'apps.run_APItest',
+    'apps.run_UItest',
 
 ]
 

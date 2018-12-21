@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 
-from .models import envinfo, rfrecord
+from apps.env_setting.models import envinfo, rfrecord
 
 
 def testdb_get(Nametmp):

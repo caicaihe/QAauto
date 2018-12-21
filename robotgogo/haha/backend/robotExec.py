@@ -2,8 +2,7 @@ import os
 import sys
 import datetime
 
-sys.path.append("../")
-from env_setting.env_CRUD import *
+from apps.env_setting.env_CRUD import *
 
 
 def  runRobot(rfrecordName):

@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f68d98ef-6be8-4774-846f-4fb5de7babcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/env_setting/templates/env_base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/env_setting/templates/setconfig_auto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/env_setting/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/env_setting/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/env_setting/env_CRUD.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/env_setting/env_CRUD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/env_setting/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/env_setting/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/env_setting/templates/env_setting.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/env_setting/templates/env_setting.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/env_setting/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/env_setting/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/env_setting/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/env_setting/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/run_APItest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/run_APItest/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/run_APItest/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/run_APItest/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/run_UItest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/run_UItest/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/run_UItest/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/run_UItest/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/haha/backend/robotExec.py" beforeDir="false" afterPath="$PROJECT_DIR$/haha/backend/robotExec.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/haha/backend/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/haha/backend/send_email.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/haha/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/haha/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/haha/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/haha/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/haha/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/haha/view.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,32 +109,35 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="153" />
-          <entry key="py" value="1217" />
+          <entry key="py" value="1414" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="153" />
-          <entry key="Python" value="1217" />
+          <entry key="Python" value="1414" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="9" />
-          <entry key="py" value="26" />
+          <entry key="html" value="10" />
+          <entry key="py" value="77" />
+          <entry key="sh" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="9" />
-          <entry key="Python" value="26" />
+          <entry key="HTML" value="10" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="77" />
         </counts>
       </usages-collector>
     </session>
@@ -142,61 +145,44 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/run_UItest/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-              <folding>
-                <element signature="e#25#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/run_APItest/templates/setconfig.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-285">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/run_APItest/templates/exec_test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/run_APItest/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
               <folding>
-                <element signature="e#25#61#0" expanded="true" />
+                <element signature="e#25#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/env_setting/views.py">
+        <entry file="file://$PROJECT_DIR$/apps/run_UItest/backend/get_django_log.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/run_UItest/backend/robot_exec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
-              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/env_setting/env_CRUD.py">
+        <entry file="file://$PROJECT_DIR$/apps/run_UItest/change_config.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/run_UItest/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+            <state relative-caret-position="150">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -204,8 +190,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/haha/backend/robotExec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -214,19 +200,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/haha/view.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/apps/run_APItest/models.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/haha/backend/send_email.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state relative-caret-position="195">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -235,10 +217,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/haha/settings.py">
+        <entry file="file://$PROJECT_DIR$/apps/run_APItest/tests.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/run_APItest/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -276,36 +266,37 @@
         <option value="$PROJECT_DIR$/requirements" />
         <option value="$PROJECT_DIR$/apps/run_APItest/templates/devopstest.html" />
         <option value="$PROJECT_DIR$/apps/run_APItest/backend/robot_exec.py" />
-        <option value="$PROJECT_DIR$/apps/run_APItest/urls.py" />
         <option value="$PROJECT_DIR$/haha/templates/base.html" />
         <option value="$PROJECT_DIR$/apps/run_APItest/templates/setconfig.html" />
         <option value="$PROJECT_DIR$/apps/run_APItest/templates/exec_test.html" />
         <option value="$PROJECT_DIR$/haha/templates/run_test.html" />
-        <option value="$PROJECT_DIR$/apps/run_UItest/urls.py" />
         <option value="$PROJECT_DIR$/apps/run_UItest/templates/setconfig.html" />
         <option value="$PROJECT_DIR$/apps/run_UItest/backend/robot_exec.py" />
         <option value="$PROJECT_DIR$/apps/run_UItest/templates/setconfig_UI.html" />
-        <option value="$PROJECT_DIR$/haha/urls.py" />
         <option value="$PROJECT_DIR$/haha/templates/webhook.html" />
         <option value="$PROJECT_DIR$/apps/run_APItest/backend/get_django_log.py" />
-        <option value="$PROJECT_DIR$/haha/settings.py" />
-        <option value="$PROJECT_DIR$/apps/env_setting/models.py" />
-        <option value="$PROJECT_DIR$/apps/env_setting/urls.py" />
         <option value="$PROJECT_DIR$/apps/env_setting/templates/env_setting.html" />
         <option value="$PROJECT_DIR$/apps/env_setting/templates/setconfig_auto.html" />
-        <option value="$PROJECT_DIR$/apps/env_setting/views.py" />
         <option value="$PROJECT_DIR$/apps/env_setting/env_CRUD.py" />
-        <option value="$PROJECT_DIR$/haha/view.py" />
-        <option value="$PROJECT_DIR$/haha/backend/send_email.py" />
-        <option value="$PROJECT_DIR$/haha/backend/robotExec.py" />
         <option value="$PROJECT_DIR$/apps/run_UItest/views.py" />
+        <option value="$PROJECT_DIR$/apps/env_setting/apps.py" />
+        <option value="$PROJECT_DIR$/apps/env_setting/urls.py" />
+        <option value="$PROJECT_DIR$/apps/env_setting/views.py" />
+        <option value="$PROJECT_DIR$/apps/run_APItest/urls.py" />
         <option value="$PROJECT_DIR$/apps/run_APItest/views.py" />
+        <option value="$PROJECT_DIR$/apps/run_UItest/urls.py" />
+        <option value="$PROJECT_DIR$/haha/urls.py" />
+        <option value="$PROJECT_DIR$/haha/view.py" />
+        <option value="$PROJECT_DIR$/haha/settings.py" />
+        <option value="$PROJECT_DIR$/apps/env_setting/models.py" />
+        <option value="$PROJECT_DIR$/haha/backend/robotExec.py" />
+        <option value="$PROJECT_DIR$/haha/backend/send_email.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="71" />
-    <option name="y" value="76" />
+    <option name="x" value="70" />
+    <option name="y" value="75" />
     <option name="width" value="1373" />
     <option name="height" value="739" />
   </component>
@@ -315,6 +306,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -331,7 +323,20 @@
               <item name="robotgogo" type="b2602c69:ProjectViewProjectNode" />
               <item name="robotgogo" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="env_setting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robotgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robotgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="run_APItest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robotgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robotgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="run_APItest" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="robotgogo" type="b2602c69:ProjectViewProjectNode" />
@@ -345,6 +350,13 @@
               <item name="robotgogo" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="run_UItest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robotgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robotgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="run_UItest" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="robotgogo" type="b2602c69:ProjectViewProjectNode" />
@@ -368,7 +380,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -408,7 +419,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="71" y="76" width="1373" height="739" extended-state="0" />
+    <frame x="70" y="75" width="1373" height="739" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24926035" />
@@ -475,18 +486,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/env_setting/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/haha/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/run_APItest/change_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements">
       <provider selected="true" editor-type-id="text-editor">
@@ -504,28 +505,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/run_APItest/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/run_UItest/backend/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/run_UItest/change_config.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/run_UItest/templates/exec_test_UI.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/run_UItest/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/run_UItest/templates/setconfig_UI.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -535,20 +519,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/haha/templates/webhook.html" />
-    <entry file="file://$PROJECT_DIR$/apps/run_APItest/backend/robot_exec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/haha/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/haha/templates/run_test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -556,34 +526,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/run_UItest/backend/robot_exec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/run_APItest/backend/get_django_log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/run_APItest/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/env_setting/templates/env_setting.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/env_setting/templates/env_base.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/env_setting/templates/setconfig_auto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="70" column="15" lean-forward="true" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/run_APItest/templates/setconfig.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/startrun.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/run_APItest/templates/exec_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/run_UItest/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#25#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/run_APItest/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haha/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haha/view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#25#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/run_UItest/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haha/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/env_setting/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/env_setting/env_CRUD.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/env_setting/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/env_setting/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/env_setting/urls.py">
@@ -596,98 +641,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/env_setting/templates/setconfig_auto.html">
+    <entry file="file://$PROJECT_DIR$/apps/env_setting/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="70" column="15" lean-forward="true" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+        <state relative-caret-position="-390">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/env_setting/models.py">
+    <entry file="file://$PROJECT_DIR$/apps/run_APItest/backend/get_django_log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="150">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/env_setting/env_CRUD.py">
+    <entry file="file://$PROJECT_DIR$/apps/run_APItest/backend/robot_exec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/haha/settings.py">
+    <entry file="file://$PROJECT_DIR$/apps/run_APItest/change_config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/haha/view.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/apps/run_APItest/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/haha/backend/send_email.py">
+    <entry file="file://$PROJECT_DIR$/apps/run_APItest/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/run_APItest/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/run_APItest/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#25#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/run_UItest/backend/get_django_log.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/run_UItest/backend/robot_exec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/run_UItest/change_config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/run_UItest/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/haha/backend/robotExec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/env_setting/views.py">
+    <entry file="file://$PROJECT_DIR$/haha/backend/send_email.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/run_UItest/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        <state relative-caret-position="195">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="e#25#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/run_APItest/templates/setconfig.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/run_APItest/templates/exec_test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/run_APItest/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-          <folding>
-            <element signature="e#25#61#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
