@@ -48,7 +48,7 @@ def run_test(request):
                 return render(request, "set_test.html", ctx)
             else:
                 ctx['rlt'] = 'done'
-                ctx['link'] = "http://192.168.56.102:8081/" + TestNametmp + "/" + TestTime + "/"
+                ctx['link'] = "http://192.168.133.29:8081/" + TestNametmp + "/" + TestTime + "/"
                 return render(request, "set_test.html", ctx)
     return render(request, "set_test.html", ctx)
 

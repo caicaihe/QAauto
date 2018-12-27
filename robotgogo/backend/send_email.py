@@ -29,7 +29,7 @@ def sendEmail(IDtmp):
     content = '测试已完成，结果请查看' + ':' + 'http://192.168.133.29:8081/' + name + "/" + resultkey
     message = MIMEText(content, 'plain', 'utf-8')  # 内容, 格式, 编码
     message['From'] = "{}".format(sender)
-    message['To'] = ",".join(receivers)
+    message['To'] = "".join(receivers)
     message['Subject'] = title
 
 
