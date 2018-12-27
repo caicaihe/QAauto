@@ -9,4 +9,6 @@ urlpatterns = [
     url(r'^set_auto/$', env_auto),
     url(r'^add_auto/$', envauto_add),
     url(r'^delete_auto/$', envauto_delete),
+    url(r'^set_manual/$', env_manual),
+    url(r'^add_auto/$', envmanual_add),
     ]

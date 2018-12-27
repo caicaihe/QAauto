@@ -4,13 +4,6 @@
 <head>
 <meta charset="utf-8">
 <title>run_test</title>
-        <script type="text/javascript">
-        var clickBtn = function() {
-             var ip = "192.168.56.102"
-            var url = "http://"+ip+":8081/devops/result"
-            window.location.href = url;
-        }
-    </script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
 </head>
@@ -24,44 +17,33 @@
         </div>
     </nav>
  <br>
-<p>添加测试</p>
-    <form method="post" >
-         测试执行流程名：<input type="text" name="nm">
-        <br>
-        被测试环境名称：<input type="text" name="nn">
-        <br>
- 测试模块：
-        <input type="radio" name="mm" value="devops">devops
-        <input type="radio" name="mm" value="registry">registry
-        <br>
-        测试触发方式：
-        <input type="radio" name="mkd" value="False">手动
-        <input type="radio" name="mkd" value="True">自动
+    <form method="post">
+        选择需要执行测试ID：<input type="text" name="nn">
         <br>
 
-        测试结果推送邮箱1：<input type="text" name="nn1">
-        <br>
-        测试结果推送邮箱2：<input type="text" name="nn2">
-        <br>
-        测试结果推送邮箱3：<input type="text" name="nn3">
-        <br>
-        <br>
-        <input type="submit" value="添加">
 
+    <input type="submit" value="执行">
 </form>
-        <br>
-<p>删除测试</p>
- <form action="/env_setting/delete_auto/" method="post" >
-         ID号：<input type="text" name="kkit">
-     <br>
-        <input type="submit" value="删除">
-       <br>
+    <p>{{ rlt }}</p>
+    <br>
 
-   <br>
-</form>
+    <form   action="/run_test/exec/" method="get">
+        <input type="submit" value="查看执行日志">
+    </form>
+ <br>
+
+ <br>
+
+<a href="{{ link }}">测试结果 </a>
+        <br>
+
+    <br>
+
  <button  onclick="location.href='/'">
         返回首页
     </button>
+   <br>
+</form>
         <p>自动化测试列表</p>
     <table border="1">
         <tr>
@@ -75,7 +57,7 @@
             <th>email3</th>
             <th>TestTime</th>
         </tr>
-        {% for item2 in li2%}
+        {% for item2 in li%}
         <tr>
             <td>{{ item2.ID}} </td>
             <td>{{ item2.Name}} </td>
@@ -89,10 +71,6 @@
         </tr>
    {% endfor %}
     </table>
-
-
-
-
 
 </body>
 </html>

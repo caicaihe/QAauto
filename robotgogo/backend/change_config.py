@@ -1,6 +1,13 @@
+from apps.env_setting.env_CRUD import *
 rf_DIR="/root/mygithub/quality/automation/rf/compass/devops/"
 
 
+def change_env(env_name):
+    kk = testdb_get(env_name)
+    IP = kk[0].IP
+    registry = kk[0].Registry
+    change_config_IP(IP)
+    change_config_registry(registry)
 
 
 def change_config_IP(IP):

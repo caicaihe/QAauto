@@ -17,10 +17,15 @@ sender = '18621512301@163.com'    # 发件人邮箱(最好写全, 不然会失�
 
 title = '自动化测试'  # 邮件主题
 
-def sendEmail(address, name):
-    receivers = address
-    bb = testauto_get(name)
+def sendEmail(IDtmp):
+
+    bb = testauto_get(IDtmp)
+    try:
+        receivers = bb[0].email1
+    except:
+        print("no email address")
     resultkey = bb[0].TestTime
+    name = bb[0].Name
     content = '测试已完成，结果请查看' + ':' + 'http://192.168.133.29:8081/' + name + "/" + resultkey
     message = MIMEText(content, 'plain', 'utf-8')  # 内容, 格式, 编码
     message['From'] = "{}".format(sender)

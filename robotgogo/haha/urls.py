@@ -5,7 +5,7 @@ from haha.view import *
  
 urlpatterns = [
     url(r'^$', hello),
-    url(r'^run_test/', run_test),
+    url(r'^run_test/', include("run_test.urls")),
     url(r'^webhook/', webhook),
 
     url(r'^env_setting/', include("env_setting.urls")),

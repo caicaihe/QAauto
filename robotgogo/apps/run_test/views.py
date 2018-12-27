@@ -3,6 +3,7 @@
 from django.shortcuts import render
 from backend import robot_exec
 from backend import change_config
+from backend import send_email
 
 import time
 
@@ -21,22 +22,24 @@ def exec(request):
 
 
 
-def API_test(request):
+def run_test(request):
     ctx = {}
     result = testauto_all()
-
     ctx['li'] = result
     if request.POST:
-        ctx['rln'] = request.POST['nn']
-        testmodel = request.POST['mm']
-        ctx['ccc'] = 'devops'
-        Nametmp = request.POST['nn']
-        tmpdata = testdb_get(Nametmp)
-        IPtmp = tmpdata[0].IP
-        registrytmp = tmpdata[0].Registry
+        IDtmp = request.POST['nn']
+        tmpdata = testauto_get(IDtmp)
+        TestNametmp = tmpdata[0].Name
+        envNametmp = tmpdata[0].envName
+        envtmpdata = testdb_get(envNametmp)
+        IPtmp = envtmpdata[0].IP
+        registrytmp = envtmpdata[0].Registry
         change_config.change_config_IP(IPtmp)
         change_config.change_config_registry(registrytmp)
-        singalend = robot_exec.run_robot(testmodel)
+        singalend = robot_exec.run_robot(IDtmp)
+        tmpdata2 = testauto_get(IDtmp)
+        TestTime = tmpdata2[0].TestTime
+        send_email.sendEmail(IDtmp)
         for i in range(10):
             time.sleep(5)
             if singalend == 0:
@@ -45,6 +48,7 @@ def API_test(request):
                 return render(request, "set_test.html", ctx)
             else:
                 ctx['rlt'] = 'done'
+                ctx['link'] = "http://192.168.56.102:8081/" + TestNametmp + "/" + TestTime + "/"
                 return render(request, "set_test.html", ctx)
     return render(request, "set_test.html", ctx)
 

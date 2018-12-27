@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import json
-import sys
 from django.http import HttpResponse
 from django.shortcuts import render
-from haha.backend import send_email, robotExec
-
+from backend import robot_exec, send_email
 from apps.env_setting.env_CRUD import *
 
 
@@ -24,7 +22,7 @@ def webhook(request):
         if json_data['status'] == "Success":
             res = testauto_last()
             rfrecordName = res.Name
-            robotExec.runRobot(rfrecordName)
+            robot_exec.run_robot(rfrecordName)
             emailtmp = res.email1
             address_list = [emailtmp]
             send_email.sendEmail(address_list, rfrecordName)

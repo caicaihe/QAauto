@@ -3,20 +3,20 @@
  {% load static %}
 <head>
 <meta charset="utf-8">
-<title>caicloud</title>
-    <script type="text/javascript">
+<title>run_test</title>
+        <script type="text/javascript">
         var clickBtn = function() {
-            var ip = "192.168.56.102"
+             var ip = "192.168.56.102"
             var url = "http://"+ip+":8081/devops/result"
+            console.log("here");
             window.location.href = url;
         }
+        setInterval(() => location.reload(), 5000)
     </script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
 </head>
-
 <body>
-
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#563d7c;">
         <a class="navbar-brand" href="#">
             <img src="{% static 'logo.png' %}" height="32" class="d-inline-block align-top" alt="">
@@ -25,17 +25,26 @@
         <div class="collapse navbar-collapse">
         </div>
     </nav>
-<br>
-<br>
-    <form method="get" action="/env_setting/setting/">
-    <button type="submit">测试环境设置</button>
-</form>
-    <br>
-    <form method="get" action="/env_setting/set_auto/">
-    <button type="submit">测试执行设置</button>
+<div class="container logs">
 
-</form>
+{% for item in li%}
+{{ item }}
 <br>
+{% endfor %}
+ </div>
+    <br>
+    <button onclick="clickBtn()">
+        测试结果
+    </button>
+     <br>
+    <br>
+
+ <button  onclick="location.href='/'">
+        返回首页
+    </button>
+   <br>
+
+
 
 </body>
 </html>

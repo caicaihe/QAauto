@@ -19,8 +19,8 @@ def testdb_delete(Nametmp):
     return response
 
 
-def testauto_get(Nametmp):
-    response = rfrecord.objects.filter(Name=Nametmp)
+def testauto_get(IDtmp):
+    response = rfrecord.objects.filter(ID=IDtmp)
     return response
 
 
@@ -30,7 +30,7 @@ def testauto_all():
 
 
 def testauto_delete(idtmp):
-    response = rfrecord.objects.get(id=idtmp).delete()
+    response = rfrecord.objects.get(ID=idtmp).delete()
     return response
 
 
@@ -38,6 +38,6 @@ def testauto_last():
     response = rfrecord.objects.last()
     return response
 
-def testauto_update(name, testtime):
-    response = rfrecord.objects.filter(Name=name).update(TestTime=testtime)
+def testauto_update(IDtmp, testtime):
+    response = rfrecord.objects.filter(ID=IDtmp).update(TestTime=testtime)
     return response

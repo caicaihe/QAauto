@@ -26,19 +26,19 @@
  <br>
 <p>添加测试</p>
     <form method="post" >
-         测试执行流程名：<input type="text" name="nm">
+         测试流程名：<input type="text" name="nm">
         <br>
         被测试环境名称：<input type="text" name="nn">
         <br>
- 测试模块：
+
+        测试模块：
         <input type="radio" name="mm" value="devops">devops
         <input type="radio" name="mm" value="registry">registry
         <br>
         测试触发方式：
-        <input type="radio" name="mkd" value="False">手动
-        <input type="radio" name="mkd" value="True">自动
+        <input type="radio" name="mk" value="False">手动
+        <input type="radio" name="mk" value="True">自动
         <br>
-
         测试结果推送邮箱1：<input type="text" name="nn1">
         <br>
         测试结果推送邮箱2：<input type="text" name="nn2">
@@ -49,27 +49,22 @@
         <input type="submit" value="添加">
 
 </form>
-        <br>
+  <br>
 <p>删除测试</p>
- <form action="/env_setting/delete_auto/" method="post" >
-         ID号：<input type="text" name="kkit">
+ <form method="post" >
+         测试流程名：<input type="text" name="nmk">
      <br>
         <input type="submit" value="删除">
-       <br>
 
-   <br>
 </form>
- <button  onclick="location.href='/'">
-        返回首页
-    </button>
+
+        <br>
         <p>自动化测试列表</p>
     <table border="1">
         <tr>
-            <th>ID</th>
             <th>Name</th>
             <th>envName</th>
             <th>TetstModel</th>
-            <th>AutoPush</th>
             <th>email1</th>
             <th>email2</th>
             <th>email3</th>
@@ -77,11 +72,9 @@
         </tr>
         {% for item2 in li2%}
         <tr>
-            <td>{{ item2.ID}} </td>
             <td>{{ item2.Name}} </td>
             <td>{{ item2.envName}} </td>
             <td>{{ item2.TestModel}} </td>
-             <td>{{ item2.autopush}} </td>
             <td>{{ item2.email1}} </td>
             <td>{{ item2.email2}} </td>
             <td>{{ item2.email3}} </td>
@@ -90,7 +83,10 @@
    {% endfor %}
     </table>
 
-
+ <button  onclick="location.href='/'">
+        返回首页
+    </button>
+   <br>
 
 
 

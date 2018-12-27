@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'apps.env_setting',
     'apps.run_APItest',
     'apps.run_UItest',
+    'apps.run_test',
 
 ]
 
