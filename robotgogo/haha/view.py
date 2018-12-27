@@ -21,8 +21,8 @@ def webhook(request):
         json_data = json.loads(infotmp)
         if json_data['status'] == "Success":
             res = testauto_last()
-            rfrecordName = res.Name
-            robot_exec.run_robot(rfrecordName)
+            IDtmp = res.ID
+            robot_exec.run_robot(IDtmp)
             emailtmp = res.email1
             address_list = [emailtmp]
             send_email.sendEmail(address_list, rfrecordName)

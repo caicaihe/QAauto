@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f68d98ef-6be8-4774-846f-4fb5de7babcb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/run_test/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/run_test/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/send_email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/haha/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/haha/view.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,20 +108,20 @@
         <counts>
           <entry key="dummy" value="2" />
           <entry key="html" value="386" />
-          <entry key="py" value="2508" />
+          <entry key="py" value="2522" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="386" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="2508" />
+          <entry key="Python" value="2522" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="30" />
-          <entry key="py" value="117" />
+          <entry key="py" value="118" />
           <entry key="sh" value="1" />
         </counts>
       </usages-collector>
@@ -131,7 +129,7 @@
         <counts>
           <entry key="HTML" value="30" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="117" />
+          <entry key="Python" value="118" />
         </counts>
       </usages-collector>
     </session>
@@ -141,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/send_email.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+            <state relative-caret-position="420">
+              <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="38" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -150,11 +148,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/env_setting/templates/setconfig_auto.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/haha/view.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
-              <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+            <state relative-caret-position="345">
+              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+              <folding>
+                <element signature="e#25#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -189,11 +190,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/run_test/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="50" selection-start-line="50" selection-end-line="51" />
+            <state relative-caret-position="240">
+              <caret line="37" column="57" lean-forward="true" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
               <folding>
                 <element signature="e#25#60#0" expanded="true" />
               </folding>
@@ -291,7 +292,6 @@
         <option value="$PROJECT_DIR$/apps/env_setting/models.py" />
         <option value="$PROJECT_DIR$/haha/backend/robotExec.py" />
         <option value="$PROJECT_DIR$/haha/backend/send_email.py" />
-        <option value="$PROJECT_DIR$/haha/view.py" />
         <option value="$PROJECT_DIR$/backend/change_config.py" />
         <option value="$PROJECT_DIR$/apps/run_APItest/views.py" />
         <option value="$PROJECT_DIR$/apps/env_setting/templates/setconfig_manual.html" />
@@ -308,8 +308,9 @@
         <option value="$PROJECT_DIR$/apps/env_setting/views.py" />
         <option value="$PROJECT_DIR$/apps/run_test/templates/set_test.html" />
         <option value="$PROJECT_DIR$/apps/run_test/urls.py" />
-        <option value="$PROJECT_DIR$/backend/send_email.py" />
         <option value="$PROJECT_DIR$/apps/run_test/views.py" />
+        <option value="$PROJECT_DIR$/backend/send_email.py" />
+        <option value="$PROJECT_DIR$/haha/view.py" />
       </list>
     </option>
   </component>
@@ -368,6 +369,11 @@
               <item name="robotgogo" type="b2602c69:ProjectViewProjectNode" />
               <item name="robotgogo" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robotgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robotgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="haha" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -654,16 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/haha/view.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding>
-            <element signature="e#25#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/env_setting/env_CRUD.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -736,16 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/send_email.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/run_test/templates/set_test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -755,10 +741,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/run_test/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="50" selection-start-line="50" selection-end-line="51" />
+        <state relative-caret-position="240">
+          <caret line="37" column="57" lean-forward="true" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
           <folding>
             <element signature="e#25#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/send_email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haha/view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="e#25#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
